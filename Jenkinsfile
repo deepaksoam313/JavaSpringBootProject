@@ -11,7 +11,7 @@ pipeline {
             
             stage('Checkout') {
                 steps {
-                    git url: 'git@github.com-anuj:anuj2219/AWSDevOps.git', branch: 'main'
+                    git url: 'https://github.com/deepaksoam313/JavaSpringBootProject.git', branch: 'main'
                 }
             }
             stage('Manual Approval for Prod') {
